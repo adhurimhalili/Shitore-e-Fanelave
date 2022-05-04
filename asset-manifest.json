@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Shitore-e-Fanelave/static/css/main.97669170.css",
+    "main.js": "/Shitore-e-Fanelave/static/js/main.fc834439.js",
+    "static/js/787.f846de65.chunk.js": "/Shitore-e-Fanelave/static/js/787.f846de65.chunk.js",
+    "static/media/3.webp": "/Shitore-e-Fanelave/static/media/3.c813a39810b132717884.webp",
+    "index.html": "/Shitore-e-Fanelave/index.html",
+    "main.97669170.css.map": "/Shitore-e-Fanelave/static/css/main.97669170.css.map",
+    "main.fc834439.js.map": "/Shitore-e-Fanelave/static/js/main.fc834439.js.map",
+    "787.f846de65.chunk.js.map": "/Shitore-e-Fanelave/static/js/787.f846de65.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97669170.css",
+    "static/js/main.fc834439.js"
+  ]
+}
