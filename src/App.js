@@ -6,7 +6,7 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state={
-      title: 'Manage Orders',
+      title: 'Add Souvenir Item',
       act: 0,
       index: '',
       datas: []
@@ -78,12 +78,10 @@ class App extends Component {
       <div className="App">
         <h2>{this.state.title}</h2>
         <form ref="myForm" className="myForm">
-          <input type="text" ref="name" placeholder="Name" className="formField" />
-          <input type="text" ref="address" placeholder="Address" className="formField" />
+          <input type="text" ref="name" placeholder="Item Name" className="formField" />
+          <input type="text" ref="details" placeholder="Add Details" className="formField" />
 
-          <label for="birthday" className="datelabel">Date of Arrival:</label>
-          <input type="date" ref="date" placeholder="Date of Arrival" className="formField" />
-          <button onClick={(e)=>this.fSubmit(e)} className="myButton">Submit </button>
+          <button onClick={(e)=>this.fSubmit(e)} className="myButton">SUBMIT </button>
         </form>
         <pre>
           {datas.map((data, i) =>
