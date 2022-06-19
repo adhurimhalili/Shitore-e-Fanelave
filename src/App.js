@@ -78,7 +78,7 @@ class App extends Component {
       <div className="App">
         <h2>{this.state.title}</h2>
         <form ref="myForm" className="myForm">
-          <input type="text" ref="name" placeholder="Item Name" className="formField" />
+          <input type="text" ref="name" placeholder="Emri" className="formField" />
           <input type="text" ref="details" placeholder="Add Details" className="formField" />
 
           <button onClick={(e)=>this.fSubmit(e)} className="myButton">SUBMIT </button>
